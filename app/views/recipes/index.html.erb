@@ -1,0 +1,7 @@
+<% @recipes.each do |recipe| %>
+    <ul>
+      <lh><%= recipe.title %></lh>
+      <li><%= recipe.description %></li>
+      <li><%= recipe.made_it_yet %></li>
+    </ul>
+  <% end %>
